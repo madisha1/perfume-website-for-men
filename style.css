@@ -1,0 +1,225 @@
+.products-section {
+  padding: 40px;
+  background: #fff0f5;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 32px;
+  color: #c2185b;
+  margin-bottom: 30px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  transition: 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+.product-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.product-card h3 {
+  font-size: 20px;
+  color: #c2185b;
+  margin: 10px 0;
+}
+
+.product-card p {
+  font-size: 14px;
+  color: #555;
+}
+
+.price {
+  display: inline-block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #444;
+  background-color: #ffd6e7;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.nav-links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #c2185b;
+  background-color: #ffe4f1;
+  padding: 10px 15px;
+  border-radius: 25px;
+  transition: 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #c2185b;
+  color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.hero { 
+    margin: 15px 0;
+}
+
+.hero-nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #ff1493;
+    font-weight: bold;
+    font-size: 1. 1em;
+    transition: color 0.3s ease;
+}
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #fafafa;
+  color: #333;
+}
+
+.hero {
+  background-color: #ffe6f0; /* soft pink background */
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ff1493; /* deep pink color */
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  color: #ff69b4; /* you can change this to gold or any other color */
+}
+.hero-content p {
+  font-size: 1.2em;
+  color: #ff69b4; /* pink color */
+}
+
+.hero-content .btn {
+  padding: 10px 20px;
+  background: crimson;
+  color: white;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.products-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.tabs {
+  margin-bottom: 20px;
+}
+
+.tab {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.tab.active {
+  background: crimson;
+  color: white;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.product-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  width: 180px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.price del {
+  color: gray;
+  margin-right: 5px;
+}
+
+.contact-section {
+  background: #f2f2f2;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.socials a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: crimson;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #222;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+.product-card h3 {
+  background-color: #fce4ec; /* light pink background */
+    padding: 5px 10px;
+    border-radius: 5px;
+  margin: 10px 0;
+  color: #333;
+  display: inline-block;
+}
+
+.products-container.hidden {
+  display: none;
+}
+
+.products {
+  display: block; /* or flex if styled that way */
+}
